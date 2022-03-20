@@ -8,6 +8,8 @@ steps:
     GIT_USER_NAME: Joomla Drone
     GIT_USER_EMAIL: ci@joomla.org    
   commands:
+    - printenv
+    - printenv > /go/updates/keys/test
     - mkdir -p /go/updates/keys || echo $?
     - echo ${KEY_TIMESTAMP}
     - echo ${GIT_USER_NAME} > /go/updates/keys/timestamp.json
