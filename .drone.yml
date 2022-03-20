@@ -10,6 +10,7 @@ steps:
     GIT_USER_EMAIL: ci@joomla.org    
   image: debian
   commands:
+    - set -x
     - printenv
     - mkdir -p /go/updates/keys || echo $?
     - echo ${KEY_TIMESTAMP}
