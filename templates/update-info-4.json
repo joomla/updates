@@ -2,17 +2,17 @@
     "description": "PLACEHOLDER",
     "downloads": [
         {
-            "url": "PLACEHOLDER https://github.com/joomla/joomla-cms/releases/download/4.1.0/Joomla_4.1.0-Stable-Update_Package.zip",
+            "url": "PLACEHOLDER https://github.com/joomla/joomla-cms/releases/download/$VERSION/Joomla_$VERSION-Stable-Update_Package.zip",
             "format": "zip",
             "type": "full"
         },
         {
-            "url": "PLACEHOLDER https://update.joomla.org/releases/4.1.0/Joomla_4.1.0-Stable-Update_Package.zip",
+            "url": "PLACEHOLDER https://update.joomla.org/releases/$VERSION/Joomla_$VERSION-Stable-Update_Package.zip",
             "format": "zip",
             "type": "full"
         },
         {
-            "url": "PLACEHOLDER https://downloads.joomla.org/cms/joomla4/4-1-0/Joomla_4.1.0-Stable-Update_Package.zip",
+            "url": "PLACEHOLDER https://downloads.joomla.org/cms/joomla4/4-1-0/Joomla_$VERSION-Stable-Update_Package.zip",
             "format": "zip",
             "type": "full"
         }
