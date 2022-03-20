@@ -1,8 +1,5 @@
----
 kind: pipeline
 name: default
-
-clone:
 
 steps:
 - name: timestamp
@@ -27,10 +24,3 @@ steps:
     event:
     - cron
     - custom
-
-
----
-kind: signature
-hmac: a6f3f2ed21261b612d052724e5f43a5dd55168f98cbaa48eeaa358816bb255df
-
-...
