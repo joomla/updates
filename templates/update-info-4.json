@@ -1,0 +1,43 @@
+{
+    "description": "PLACEHOLDER",
+    "downloads": [
+        {
+            "url": "PLACEHOLDER https://github.com/joomla/joomla-cms/releases/download/4.1.0/Joomla_4.1.0-Stable-Update_Package.zip",
+            "format": "zip",
+            "type": "full"
+        },
+        {
+            "url": "PLACEHOLDER https://update.joomla.org/releases/4.1.0/Joomla_4.1.0-Stable-Update_Package.zip",
+            "format": "zip",
+            "type": "full"
+        },
+        {
+            "url": "PLACEHOLDER https://downloads.joomla.org/cms/joomla4/4-1-0/Joomla_4.1.0-Stable-Update_Package.zip",
+            "format": "zip",
+            "type": "full"
+        }
+    ],
+    "infourl": {
+      "url": "https://www.joomla.org/announcements/release-news/PLACEHOLDER",
+      "title": "PLACEHOLDER"
+    },
+    "maintainer": "Joomla! Production Department",
+    "maintainerurl": "https://www.joomla.org",
+    "name": "PLACEHOLDER",
+    "php_minimum": "7.2.5",
+    "section": "STS",
+    "supported_databases": {
+      "mariadb": "10.1",
+      "mysql": "5.6",
+      "postgresql": "11.0"
+    },
+    "tags": {
+      "tag": "stable"
+    },
+    "targetplatform": {
+      "name": "joomla",
+      "version": "4.[01]"
+    },
+    "type": "file",
+    "version": "PLACEHOLDER"
+}
