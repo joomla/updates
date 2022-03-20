@@ -13,8 +13,8 @@ steps:
     - set -x
     - printenv
     - mkdir -p /go/updates/keys || echo $?
-    - echo \${KEY_TIMESTAMP}
-    - echo ${GIT_USER_NAME} > /go/updates/keys/timestamp.json
+    - echo $${KEY_TIMESTAMP}
+    - echo $${GIT_USER_NAME} > /go/updates/keys/timestamp.json
     - ls -l /go/updates/keys
     - /go/docker-entrypoint.sh update-timestamp
   trigger:
