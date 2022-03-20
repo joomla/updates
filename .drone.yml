@@ -10,11 +10,13 @@ steps:
     environment:
       ACCESS_TOKEN:
         from_secret: ACCESS_TOKEN
+      KEY_TIMESTAMP:
+        from_secret: KEY_TIMESTAMP
       GIT_USER_NAME: Joomla Drone
       GIT_USER_EMAIL: ci@joomla.org    
       GIT_BRANCH_NAME: ${DRONE_BRANCH}
     commands:
-      - mkdir /go/updates/keys || echo $?
+      - mkdir -p /go/updates/keys || echo $?
       - echo ${KEY_TIMESTAMP} > /go/updates/keys/timestamp.json
       - /go/docker-entrypoint.sh update-timestamp
     trigger:
