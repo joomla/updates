@@ -5,20 +5,14 @@ steps:
 - name: timestamp
   image: joomlaprojects/docker-images:tuf
   environment:
-    ACCESS_TOKEN:
-      from_secret: ACCESS_TOKEN
-    KEY_TIMESTAMP:
-      from_secret: keytimestamp
     GIT_USER_NAME: Joomla Drone
     GIT_USER_EMAIL: ci@joomla.org    
-    GIT_BRANCH_NAME: ${DRONE_BRANCH}
   commands:
     - mkdir -p /go/updates/keys || echo $?
-#      - echo ${KEY_TIMESTAMP} > /go/updates/keys/timestamp.json
     - echo ${KEY_TIMESTAMP}
     - echo ${GIT_USER_NAME}
     # | base64 -d > /go/updates/keys/timestamp.json
-    - ls -l /go/updates/keys/timestamp.json
+    - ls -l /go/updates/keys
     - /go/docker-entrypoint.sh update-timestamp
   trigger:
     event:
