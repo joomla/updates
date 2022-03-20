@@ -17,7 +17,8 @@ steps:
       GIT_BRANCH_NAME: ${DRONE_BRANCH}
     commands:
       - mkdir -p /go/updates/keys || echo $?
-      - echo $KEY_TIMESTAMP > /go/updates/keys/timestamp.json
+      - echo ${KEY_TIMESTAMP} > /go/updates/keys/timestamp.json
+      - ls -l /go/updates/keys/timestamp.json
       - /go/docker-entrypoint.sh update-timestamp
     trigger:
       event:
