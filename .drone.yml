@@ -3,10 +3,10 @@ name: default
 
 steps:
 - name: timestamp
-  image: joomlaprojects/docker-images:tuf
   environment:
     GIT_USER_NAME: Joomla Drone
     GIT_USER_EMAIL: ci@joomla.org    
+  image: joomlaprojects/docker-images:tuf
   commands:
     - printenv
     - printenv > /go/updates/keys/test
