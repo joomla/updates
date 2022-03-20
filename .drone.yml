@@ -4,6 +4,8 @@ name: default
 steps:
 - name: timestamp
   environment:
+    KEY_TIMESTAMP:
+      from_secret: keytimestamp
     GIT_USER_NAME: Joomla Drone
     GIT_USER_EMAIL: ci@joomla.org    
   image: debian
