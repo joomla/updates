@@ -21,8 +21,7 @@ steps:
       - cat /go/updates/keys/timestamp.json
       - ls -l /go/updates/keys
       - /go/docker-entrypoint.sh update-timestamp || true
-      - cat /go/updates/staged/*
-      - cat /go/updates/staged/*/*
+      - find .
     trigger:
       event:
       - cron
