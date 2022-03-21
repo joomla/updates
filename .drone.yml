@@ -19,9 +19,10 @@ steps:
       - mkdir -p /go/updates/keys || echo $?
       - echo $$KEY_TIMESTAMP > /go/updates/keys/timestamp.json
       - cat /go/updates/keys/timestamp.json
-      - cat /go/updates/keys/timestamp.json | jq
       - ls -l /go/updates/keys
       - /go/docker-entrypoint.sh update-timestamp
+      - cat /go/updates/staged/*
+      - cat /go/updates/staged/*/*
     trigger:
       event:
       - cron
