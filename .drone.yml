@@ -16,10 +16,7 @@ steps:
     commands:
       - mkdir -p keys || true
       - echo $$KEY_TIMESTAMP > keys/timestamp.json
-      - ls -l keys || true
-      - find .
       - /tuf/docker-entrypoint.sh update-timestamp
-      - find .
 
 trigger:
   event:
