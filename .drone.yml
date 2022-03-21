@@ -17,7 +17,6 @@ steps:
       - find .
       - mkdir -p /go/keys || true
       - echo $$KEY_TIMESTAMP > /go/keys/timestamp.json
-      - cat /go/keys/timestamp.json
       - ls -l /go/keys
       - /tuf/docker-entrypoint.sh update-timestamp || true
       - find .
