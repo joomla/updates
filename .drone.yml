@@ -20,7 +20,7 @@ steps:
       - echo $$KEY_TIMESTAMP > /go/updates/keys/timestamp.json
       - cat /go/updates/keys/timestamp.json
       - ls -l /go/updates/keys
-      - /go/docker-entrypoint.sh update-timestamp
+      - /go/docker-entrypoint.sh update-timestamp || true
       - cat /go/updates/staged/*
       - cat /go/updates/staged/*/*
     trigger:
