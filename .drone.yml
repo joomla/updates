@@ -18,7 +18,8 @@ steps:
       - mkdir -p /go/keys || true
       - echo $$KEY_TIMESTAMP > /go/keys/timestamp.json
       - ls -l /go/keys || true
-      - /tuf/docker-entrypoint.sh update-timestamp || true
+      - find .
+      - /tuf/docker-entrypoint.sh update-timestamp
       - find .
     trigger:
       event:
