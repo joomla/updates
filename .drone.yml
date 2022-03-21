@@ -19,7 +19,7 @@ steps:
       - echo $$KEY_TIMESTAMP > /go/keys/timestamp.json
       - cat /go/keys/timestamp.json
       - ls -l /go/keys
-      - /go/docker-entrypoint.sh update-timestamp || true
+      - /tuf/docker-entrypoint.sh update-timestamp || true
       - find .
     trigger:
       event:
