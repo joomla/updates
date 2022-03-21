@@ -14,6 +14,7 @@ steps:
       GIT_USER_EMAIL: ci@joomla.org    
       GIT_BRANCH_NAME: ${DRONE_BRANCH}
     commands:
+      - PWD
       - find .
       - mkdir -p /go/keys || true
       - echo $$KEY_TIMESTAMP > /go/keys/timestamp.json
