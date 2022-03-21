@@ -14,12 +14,11 @@ steps:
       GIT_USER_EMAIL: ci@joomla.org    
       GIT_BRANCH_NAME: ${DRONE_BRANCH}
     commands:
-      - rm -rf .git
       - find .
-      - mkdir -p /go/updates/keys || echo $?
-      - echo $$KEY_TIMESTAMP > /go/updates/keys/timestamp.json
-      - cat /go/updates/keys/timestamp.json
-      - ls -l /go/updates/keys
+      - mkdir -p /go/keys || true
+      - echo $$KEY_TIMESTAMP > /go/keys/timestamp.json
+      - cat /go/keys/timestamp.json
+      - ls -l /go/keys
       - /go/docker-entrypoint.sh update-timestamp || true
       - find .
     trigger:
