@@ -14,11 +14,9 @@ steps:
       GIT_USER_EMAIL: ci@joomla.org    
       GIT_BRANCH_NAME: ${DRONE_BRANCH}
     commands:
-      - cd /go
-      - find .
-      - mkdir -p /go/keys || true
-      - echo $$KEY_TIMESTAMP > /go/keys/timestamp.json
-      - ls -l /go/keys || true
+      - mkdir -p keys || true
+      - echo $$KEY_TIMESTAMP > keys/timestamp.json
+      - ls -l keys || true
       - find .
       - /tuf/docker-entrypoint.sh update-timestamp
       - find .
