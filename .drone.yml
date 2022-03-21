@@ -22,8 +22,8 @@ steps:
       - find .
     trigger:
       event:
-      - cron
-      - custom
+        include:
+          - cron
 ---
 kind: signature
 hmac: a6f3f2ed21261b612d052724e5f43a5dd55168f98cbaa48eeaa358816bb255df
