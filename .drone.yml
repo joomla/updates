@@ -10,17 +10,23 @@ steps:
         from_secret: ACCESS_TOKEN
       KEY_TIMESTAMP:
         from_secret: KEY_TIMESTAMP
+      TUF_TIMESTAMP_PASSPHRASE:
+        from_secret: KEY_TIMESTAMP_PASSPHRASE
       GIT_USER_NAME: Joomla Drone
-      GIT_USER_EMAIL: ci@joomla.org    
-      GIT_BRANCH_NAME: ${DRONE_BRANCH}
+      GIT_USER_EMAIL: ci@joomla.org
+      GIT_BASE_BRANCH_NAME: test_live
+      GIT_TARGET_BRANCH_NAME: ${DRONE_BRANCH}
     commands:
       - mkdir -p keys || true
       - echo $$KEY_TIMESTAMP > keys/timestamp.json
       - /tuf/docker-entrypoint.sh update-timestamp
 
 trigger:
+  branch:
+    - test_main
   event:
     - cron
+    - push
 ---
 kind: signature
 hmac: a6f3f2ed21261b612d052724e5f43a5dd55168f98cbaa48eeaa358816bb255df
