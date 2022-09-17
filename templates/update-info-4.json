@@ -24,6 +24,7 @@
     "maintainer": "Joomla! Production Department",
     "maintainerurl": "https://www.joomla.org",
     "name": "PLACEHOLDER",
+    "element": "joomla",
     "php_minimum": "7.2.5",
     "section": "STS",
     "supported_databases": {
