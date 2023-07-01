@@ -1,0 +1,9 @@
+[user]
+	name = hleithner
+	email = harald.leithner@itronic.at
+[init]
+	defaultBranch = main-alpha
+[pull]
+	rebase = false
+[credential "https://github.com"]
+	username = git
