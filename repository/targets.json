@@ -2,8 +2,8 @@
   "signed": {
     "_type": "targets",
     "spec_version": "1.0",
-    "version": 5,
-    "expires": "2023-10-01T14:09:45Z",
+    "version": 6,
+    "expires": "2023-10-01T14:44:20Z",
     "targets": {
       "Joomla_5.0.0-alpha2-Alpha-Update_Package.zip": {
         "length": 26192043,
@@ -100,13 +100,113 @@
           "type": "file",
           "version": "5.0.1"
         }
+      },
+      "Joomla_5.0.2-Stable-Update_Package.zip": {
+        "length": 28644305,
+        "hashes": {
+          "sha512": "2dedc54a4479f673109204af07769d23deef40cbe34637e1c17126cee23add6ccac6f91e87b8a33058f729dcdfd2410a821c1d35c8feb2afbd705164f0d8c190"
+        },
+        "custom": {
+          "client": "site",
+          "description": "Joomla! 5.0.2 Release",
+          "downloads": [
+            {
+              "url": "https://github.com/joomla/joomla-cms/releases/download/5.0.2/Joomla_5.0.2-Stable-Update_Package.zip",
+              "format": "zip",
+              "type": "full"
+            },
+            {
+              "url": "https://update.joomla.org/releases/5.0.2/Joomla_5.0.2-Stable-Update_Package.zip",
+              "format": "zip",
+              "type": "full"
+            },
+            {
+              "url": "https://downloads.joomla.org/cms/joomla5/5-0-0/Joomla_5.0.2-Stable-Update_Package.zip",
+              "format": "zip",
+              "type": "full"
+            }
+          ],
+          "element": "joomla",
+          "infourl": {
+            "url": "https://www.joomla.org/announcements/release-news/",
+            "title": "Joomla! 5.0.2 Release"
+          },
+          "maintainer": "Joomla! Production Department",
+          "maintainerurl": "https://www.joomla.org",
+          "name": "Joomla! 5.0.2",
+          "php_minimum": "8.1.0",
+          "stability": "stable",
+          "supported_databases": {
+            "mariadb": "10.4",
+            "mysql": "8.0.13",
+            "postgresql": "11.0"
+          },
+          "targetplatform": {
+            "name": "joomla",
+            "version": "5.[0]"
+          },
+          "type": "file",
+          "version": "5.0.2"
+        }
+      },
+      "Joomla_5.0.3-Stable-Update_Package.zip": {
+        "length": 28644305,
+        "hashes": {
+          "sha512": "2dedc54a4479f673109204af07769d23deef40cbe34637e1c17126cee23add6ccac6f91e87b8a33058f729dcdfd2410a821c1d35c8feb2afbd705164f0d8c190"
+        },
+        "custom": {
+          "client": "site",
+          "description": "Joomla! 5.0.3 Release",
+          "downloads": [
+            {
+              "url": "hackradt.com/Joomla_5.0.3-Stable-Update_Package.zip",
+              "format": "zip",
+              "type": "full"
+            },
+            {
+              "url": "https://update.joomla.org/releases/5.0.3/Joomla_5.0.3-Stable-Update_Package.zip",
+              "format": "zip",
+              "type": "full"
+            },
+            {
+              "url": "https://downloads.joomla.org/cms/joomla5/5-0-0/Joomla_5.0.3-Stable-Update_Package.zip",
+              "format": "zip",
+              "type": "full"
+            }
+          ],
+          "element": "joomla",
+          "infourl": {
+            "url": "https://www.joomla.org/announcements/release-news/",
+            "title": "Joomla! 5.0.3 Release"
+          },
+          "maintainer": "Joomla! Production Department",
+          "maintainerurl": "https://www.joomla.org",
+          "name": "Joomla! 5.0.3",
+          "php_minimum": "8.1.0",
+          "stability": "stable",
+          "supported_databases": {
+            "mariadb": "10.4",
+            "mysql": "8.0.13",
+            "postgresql": "11.0"
+          },
+          "targetplatform": {
+            "name": "joomla",
+            "version": "5.[0]"
+          },
+          "type": "file",
+          "version": "5.0.3"
+        }
       }
     }
   },
   "signatures": [
     {
       "keyid": "1e456d8b1aebbf1812f8181b8ffb30100864210ff203eec1a32faf72cc5921e8",
-      "sig": "de5892da5d0e0b94f1271f991bf1739eb664347618319df0a4133758da51a1606c27d1364a53fcaef69598ad3ea89a561a90513993d6b41dfe0ee11acc94e603"
+      "sig": "42049a4c3ddfec898bcef1549f2abb3765fd8032d14c89d4fec5010d70dd577e9052f7d175eb3111a9a89b289cca32cd12326b22f2706ad9d85cd0d2857fdf04"
+    },
+    {
+      "keyid": "d363dcdfdbab98bc60e367e83c0b338e89c27bbdcd20517b1315d24b41c254dd",
+      "sig": "e94ef45dfa2342e13f2488998f5152e2f99b34c12c4a10725f6896c4e23f6463c9edacacf87e3b4b2c3975ea9cd9a212f3be9b21a23570ee7fa9f5bcc164d00c"
     }
   ]
 }
