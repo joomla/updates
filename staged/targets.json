@@ -1,0 +1,64 @@
+{
+  "signed": {
+    "_type": "targets",
+    "spec_version": "1.0",
+    "version": 4,
+    "expires": "2023-10-01T13:51:16Z",
+    "targets": {
+      "Joomla_5.0.0-alpha2-Alpha-Update_Package.zip": {
+        "length": 26192043,
+        "hashes": {
+          "sha512": "8e22c0b51ebf3c953d7fa22d172ed42deb9215dd446ca064f7a1467a24a8ac9424aa91197b691c62812dcb08f00836ea611d1f195f2b3336472ae26fec630223"
+        },
+        "custom": {
+          "client": "site",
+          "description": "Joomla! 5.0.0-alpha2 Release",
+          "downloads": [
+            {
+              "url": "https://github.com/joomla/joomla-cms/releases/download/5.0.0-alpha2/Joomla_5.0.0-alpha2-Stable-Update_Package.zip",
+              "format": "zip",
+              "type": "full"
+            },
+            {
+              "url": "https://update.joomla.org/releases/5.0.0-alpha2/Joomla_5.0.0-alpha2-Stable-Update_Package.zip",
+              "format": "zip",
+              "type": "full"
+            },
+            {
+              "url": "https://downloads.joomla.org/cms/joomla5/5-0-0/Joomla_5.0.0-alpha2-Stable-Update_Package.zip",
+              "format": "zip",
+              "type": "full"
+            }
+          ],
+          "element": "joomla",
+          "infourl": {
+            "url": "https://www.joomla.org/announcements/release-news/",
+            "title": "Joomla! 5.0.0-alpha2 Release"
+          },
+          "maintainer": "Joomla! Production Department",
+          "maintainerurl": "https://www.joomla.org",
+          "name": "Joomla! 5.0.0-alpha2",
+          "php_minimum": "8.1.0",
+          "stability": "stable",
+          "supported_databases": {
+            "mariadb": "10.4",
+            "mysql": "8.0.13",
+            "postgresql": "11.0"
+          },
+          "targetplatform": {
+            "name": "joomla",
+            "version": "5.[0]"
+          },
+          "type": "file",
+          "version": "5.0.0-alpha2"
+        }
+      }
+    }
+  },
+  "signatures": [
+    {
+      "keyid": "1e456d8b1aebbf1812f8181b8ffb30100864210ff203eec1a32faf72cc5921e8",
+      "sig": "818be2e03a8b9ede70260c41d41741d9edfad39b3e1360bbccd896f0dc943f84904bf31b4283005a82581718e67ea1289ae14e2db5f471187e58dea365d9cd0a"
+    }
+  ]
+}
