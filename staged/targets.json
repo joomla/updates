@@ -3,7 +3,7 @@
     "_type": "targets",
     "spec_version": "1.0",
     "version": 6,
-    "expires": "2023-10-01T14:18:29Z",
+    "expires": "2023-10-01T14:19:30Z",
     "targets": {
       "Joomla_5.0.0-alpha2-Alpha-Update_Package.zip": {
         "length": 26192043,
@@ -106,7 +106,7 @@
   "signatures": [
     {
       "keyid": "1e456d8b1aebbf1812f8181b8ffb30100864210ff203eec1a32faf72cc5921e8",
-      "sig": "3fda3a3f2add8aa3c909ad58a93f6d7170a4ad9b7b4bd4e8702a95d2a5c498d3e975448cc552d20033a67e232d1ec73fe5d669c23ea42a3a8cd647dd374df90f"
+      "sig": "9b093f300f99656f532dbb7ec1366b038aa944986679f4b9830f26277fa91f40ba6a0a0b23f3a30f80face9f3fe33c82b6c837e4bb0924c69b75b9b1ce864101"
     }
   ]
 }
