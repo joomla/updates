@@ -1,1 +1,27 @@
-{"signed":{"_type":"timestamp","spec_version":"1.0","version":2,"expires":"2023-07-02T11:31:51Z","meta":{"snapshot.json":{"length":529,"hashes":{"sha512":"05a10e51b564523ce6424e11d7c9c555840016ce954fbd7db71d7edb5d8048dfc3da2c0e572db04e95c8427c6f9866d222c056b103b2e693f0611b916d8a67d9"},"version":2}}},"signatures":[{"keyid":"6e6ea0f74918cff8deb1dfd5bfa5471c71a210106604081df0696cb6bc793bfc","sig":"a80697f214c3b8ce6dab33ea850b4621055cfe5f1beb183abe9b6930c7c786eda81b05d2e93181a9a8db5d3c18cef43fbeb33978a0938dd2ce11ae9296d8800c"},{"keyid":"788c596eb4b3d51f00a5bac53c904e6830d9a75d47fd37fab6bce13811268e5a","sig":"1f76aa20b6c5ed2e21335fada2fdf9119cc2747e12c4532222a45915cbf147279664b6512c023eb31335c4332bf1ebba9716246bf1d4cfc7b40174e07d6f4f0f"}]}
+{
+  "signed": {
+    "_type": "timestamp",
+    "spec_version": "1.0",
+    "version": 2,
+    "expires": "2023-07-02T11:31:51Z",
+    "meta": {
+      "snapshot.json": {
+        "length": 529,
+        "hashes": {
+          "sha512": "05a10e51b564523ce6424e11d7c9c555840016ce954fbd7db71d7edb5d8048dfc3da2c0e572db04e95c8427c6f9866d222c056b103b2e693f0611b916d8a67d9"
+        },
+        "version": 2
+      }
+    }
+  },
+  "signatures": [
+    {
+      "keyid": "6e6ea0f74918cff8deb1dfd5bfa5471c71a210106604081df0696cb6bc793bfc",
+      "sig": "a80697f214c3b8ce6dab33ea850b4621055cfe5f1beb183abe9b6930c7c786eda81b05d2e93181a9a8db5d3c18cef43fbeb33978a0938dd2ce11ae9296d8800c"
+    },
+    {
+      "keyid": "788c596eb4b3d51f00a5bac53c904e6830d9a75d47fd37fab6bce13811268e5a",
+      "sig": "1f76aa20b6c5ed2e21335fada2fdf9119cc2747e12c4532222a45915cbf147279664b6512c023eb31335c4332bf1ebba9716246bf1d4cfc7b40174e07d6f4f0f"
+    }
+  ]
+}
