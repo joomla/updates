@@ -1,0 +1,18 @@
+{
+  "signed": {
+    "_type": "snapshot",
+    "spec_version": "1.0",
+    "version": 5,
+    "expires": "2023-07-08T13:52:07Z",
+    "meta": {
+      "targets.json": {
+        "length": 2201,
+        "hashes": {
+          "sha512": "56a8429bbd192388e4ec74db28d2eaae77c67b04c6bf22db6f689c96abf0601b96bcc3027c760b81a6273abc3d73ac9124b97638b7c044985b83b6f006cf4ec5"
+        },
+        "version": 4
+      }
+    }
+  },
+  "signatures": null
+}
