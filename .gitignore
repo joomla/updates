@@ -1,3 +1,5 @@
 keys/
 staged/targets/*
 repository/targets/*
+#.config
+#.gitconfig
