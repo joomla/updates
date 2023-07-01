@@ -1,0 +1,112 @@
+{
+  "signed": {
+    "_type": "targets",
+    "spec_version": "1.0",
+    "version": 5,
+    "expires": "2023-10-01T14:09:45Z",
+    "targets": {
+      "Joomla_5.0.0-alpha2-Alpha-Update_Package.zip": {
+        "length": 26192043,
+        "hashes": {
+          "sha512": "8e22c0b51ebf3c953d7fa22d172ed42deb9215dd446ca064f7a1467a24a8ac9424aa91197b691c62812dcb08f00836ea611d1f195f2b3336472ae26fec630223"
+        },
+        "custom": {
+          "client": "site",
+          "description": "Joomla! 5.0.0-alpha2 Release",
+          "downloads": [
+            {
+              "url": "https://github.com/joomla/joomla-cms/releases/download/5.0.0-alpha2/Joomla_5.0.0-alpha2-Stable-Update_Package.zip",
+              "format": "zip",
+              "type": "full"
+            },
+            {
+              "url": "https://update.joomla.org/releases/5.0.0-alpha2/Joomla_5.0.0-alpha2-Stable-Update_Package.zip",
+              "format": "zip",
+              "type": "full"
+            },
+            {
+              "url": "https://downloads.joomla.org/cms/joomla5/5-0-0/Joomla_5.0.0-alpha2-Stable-Update_Package.zip",
+              "format": "zip",
+              "type": "full"
+            }
+          ],
+          "element": "joomla",
+          "infourl": {
+            "url": "https://www.joomla.org/announcements/release-news/",
+            "title": "Joomla! 5.0.0-alpha2 Release"
+          },
+          "maintainer": "Joomla! Production Department",
+          "maintainerurl": "https://www.joomla.org",
+          "name": "Joomla! 5.0.0-alpha2",
+          "php_minimum": "8.1.0",
+          "stability": "stable",
+          "supported_databases": {
+            "mariadb": "10.4",
+            "mysql": "8.0.13",
+            "postgresql": "11.0"
+          },
+          "targetplatform": {
+            "name": "joomla",
+            "version": "5.[0]"
+          },
+          "type": "file",
+          "version": "5.0.0-alpha2"
+        }
+      },
+      "Joomla_5.0.1-Stable-Update_Package.zip": {
+        "length": 28644305,
+        "hashes": {
+          "sha512": "2dedc54a4479f673109204af07769d23deef40cbe34637e1c17126cee23add6ccac6f91e87b8a33058f729dcdfd2410a821c1d35c8feb2afbd705164f0d8c190"
+        },
+        "custom": {
+          "client": "site",
+          "description": "Joomla! 5.0.1 Release",
+          "downloads": [
+            {
+              "url": "https://github.com/joomla/joomla-cms/releases/download/5.0.1/Joomla_5.0.1-Stable-Update_Package.zip",
+              "format": "zip",
+              "type": "full"
+            },
+            {
+              "url": "https://update.joomla.org/releases/5.0.1/Joomla_5.0.1-Stable-Update_Package.zip",
+              "format": "zip",
+              "type": "full"
+            },
+            {
+              "url": "https://downloads.joomla.org/cms/joomla5/5-0-0/Joomla_5.0.1-Stable-Update_Package.zip",
+              "format": "zip",
+              "type": "full"
+            }
+          ],
+          "element": "joomla",
+          "infourl": {
+            "url": "https://www.joomla.org/announcements/release-news/",
+            "title": "Joomla! 5.0.1 Release"
+          },
+          "maintainer": "Joomla! Production Department",
+          "maintainerurl": "https://www.joomla.org",
+          "name": "Joomla! 5.0.1",
+          "php_minimum": "8.1.0",
+          "stability": "stable",
+          "supported_databases": {
+            "mariadb": "10.4",
+            "mysql": "8.0.13",
+            "postgresql": "11.0"
+          },
+          "targetplatform": {
+            "name": "joomla",
+            "version": "5.[0]"
+          },
+          "type": "file",
+          "version": "5.0.1"
+        }
+      }
+    }
+  },
+  "signatures": [
+    {
+      "keyid": "1e456d8b1aebbf1812f8181b8ffb30100864210ff203eec1a32faf72cc5921e8",
+      "sig": "de5892da5d0e0b94f1271f991bf1739eb664347618319df0a4133758da51a1606c27d1364a53fcaef69598ad3ea89a561a90513993d6b41dfe0ee11acc94e603"
+    }
+  ]
+}
