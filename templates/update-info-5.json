@@ -27,6 +27,7 @@
   "maintainerurl": "https://www.joomla.org",
   "name": "PLACEHOLDER",
   "php_minimum": "8.1.0",
+  "channel": "default",
   "stability": "stable",
   "supported_databases": {
     "mariadb": "10.4",
