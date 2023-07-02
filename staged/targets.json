@@ -3,7 +3,7 @@
     "_type": "targets",
     "spec_version": "1.0",
     "version": 7,
-    "expires": "2023-10-02T10:02:02Z",
+    "expires": "2023-10-02T10:04:39Z",
     "targets": {
       "Joomla_5.0.6-Stable-Update_Package.zip": {
         "length": 26192058,
@@ -59,7 +59,7 @@
   "signatures": [
     {
       "keyid": "d363dcdfdbab98bc60e367e83c0b338e89c27bbdcd20517b1315d24b41c254dd",
-      "sig": "77f0196dd98b8519b703fecacda1bc78475c5feb8bc1975c5fe0ac7125e5535275c5c350ef69809790f208c3cc668ced5be2cec765e0ac1c099ff2d7720f2502"
+      "sig": "03441c2701801bc288c39584be74ade26a16c5ef8c56d01c5fe57d8c00056945544cbb57379901798299b9745b8dd297b7606db74bf8bff9d8a73eb65771020a"
     }
   ]
 }
