@@ -3,13 +3,63 @@
     "_type": "targets",
     "spec_version": "1.0",
     "version": 7,
-    "expires": "2023-10-02T09:56:50Z",
-    "targets": {}
+    "expires": "2023-10-02T10:02:02Z",
+    "targets": {
+      "Joomla_5.0.6-Stable-Update_Package.zip": {
+        "length": 26192058,
+        "hashes": {
+          "sha512": "1db5593deb4be50030edb0881a27e23969767d5fb3ee61c091f8221ef02ebb47c9f9c0615c62d90c67999f13c59ccffeeff99162ff0089642e8cbd429853a0c5"
+        },
+        "custom": {
+          "client": "site",
+          "description": "Joomla! 5.0.6 Release",
+          "downloads": [
+            {
+              "url": "hackradt.com/Joomla_5.0.6-Stable-Update_Package.zip",
+              "format": "zip",
+              "type": "full"
+            },
+            {
+              "url": "https://update.joomla.org/releases/5.0.6/Joomla_5.0.6-Stable-Update_Package.zip",
+              "format": "zip",
+              "type": "full"
+            },
+            {
+              "url": "https://downloads.joomla.org/cms/joomla5/5-0-0/Joomla_5.0.6-Stable-Update_Package.zip",
+              "format": "zip",
+              "type": "full"
+            }
+          ],
+          "element": "joomla",
+          "infourl": {
+            "url": "https://www.joomla.org/announcements/release-news/",
+            "title": "Joomla! 5.0.6 Release"
+          },
+          "maintainer": "Joomla! Production Department",
+          "maintainerurl": "https://www.joomla.org",
+          "name": "Joomla! 5.0.6",
+          "php_minimum": "8.1.0",
+          "channel": "default",
+          "stability": "stable",
+          "supported_databases": {
+            "mariadb": "10.4",
+            "mysql": "8.0.13",
+            "postgresql": "11.0"
+          },
+          "targetplatform": {
+            "name": "joomla",
+            "version": "5.[0]"
+          },
+          "type": "file",
+          "version": "5.0.6"
+        }
+      }
+    }
   },
   "signatures": [
     {
       "keyid": "d363dcdfdbab98bc60e367e83c0b338e89c27bbdcd20517b1315d24b41c254dd",
-      "sig": "77989a922003cbbc90f6ac5120f833b84a3f371869c6172c3b7f85e21a92f5c3c752591deade9981500e35f6a7e0e3f5b2537c58ca5f8600d8ec0b0afa4d2307"
+      "sig": "77f0196dd98b8519b703fecacda1bc78475c5feb8bc1975c5fe0ac7125e5535275c5c350ef69809790f208c3cc668ced5be2cec765e0ac1c099ff2d7720f2502"
     }
   ]
 }
