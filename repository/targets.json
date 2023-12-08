@@ -2,8 +2,8 @@
   "signed": {
     "_type": "targets",
     "spec_version": "1.0",
-    "version": 2,
-    "expires": "2024-03-08T15:38:08Z",
+    "version": 3,
+    "expires": "2024-03-08T16:02:01Z",
     "targets": {
       "Joomla_5.1.1-Stable-Update_Package.zip": {
         "length": 26114618,
@@ -52,13 +52,66 @@
           "type": "file",
           "version": "5.1.1"
         }
+      },
+      "Joomla_5.5.1-Stable-Update_Package.zip": {
+        "length": 26114614,
+        "hashes": {
+          "sha512": "656a3a2c7115ca8ba931edf6c03514ef41898b8f655aa336e71ad3a85a845597ff1c4b79af1a14168055267478667b8cbed8cc42cbe24257160e75cf308660f2"
+        },
+        "custom": {
+          "client": "site",
+          "description": "Joomla! 5.5.1 Release",
+          "downloads": [
+            {
+              "url": "https://update.joomla.org/tuftest/Joomla_5.5.1-Stable-Update_Package.zip",
+              "format": "zip",
+              "type": "full"
+            },
+            {
+              "url": "https://github.com/joomla/joomla-cms/releases/download/5.5.1/Joomla_5.5.1-Stable-Update_Package.zip",
+              "format": "zip",
+              "type": "full"
+            },
+            {
+              "url": "https://update.joomla.org/releases/5.5.1/Joomla_5.5.1-Stable-Update_Package.zip",
+              "format": "zip",
+              "type": "full"
+            },
+            {
+              "url": "https://downloads.joomla.org/cms/joomla5/5-0-0/Joomla_5.5.1-Stable-Update_Package.zip",
+              "format": "zip",
+              "type": "full"
+            }
+          ],
+          "element": "joomla",
+          "infourl": {
+            "url": "https://www.joomla.org/announcements/release-news/",
+            "title": "Joomla! 5.5.1 Release"
+          },
+          "maintainer": "Joomla! Production Department",
+          "maintainerurl": "https://www.joomla.org",
+          "name": "Joomla! 5.5.1",
+          "php_minimum": "8.1.0",
+          "stability": "stable",
+          "supported_databases": {
+            "mariadb": "10.4",
+            "mysql": "8.0.13",
+            "postgresql": "11.0"
+          },
+          "targetplatform": {
+            "name": "joomla",
+            "version": "5.[1]"
+          },
+          "type": "file",
+          "version": "5.5.1"
+        }
       }
     }
   },
   "signatures": [
     {
       "keyid": "696a7598c714e545bb8a3a4248d82bf4c66486d142e226c1e06601a14f4d939a",
-      "sig": "bb814d9ab385baf46fdd52d725b9f24ee106dc865f1466f91127cdb8982d7ab984f4644f3224133b115b476b4b51562d7c910936d505a273af277662ba754e0c"
+      "sig": "ce3b12bb330506f6bafcf8abdb60997314746cc122f3caef70f0f0939d3737b6535dff05a42d524dee5e6729322bd51cc3dc4cd45f0d120b9011c1ea43108f0c"
     }
   ]
 }
