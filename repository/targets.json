@@ -2,14 +2,63 @@
   "signed": {
     "_type": "targets",
     "spec_version": "1.0",
-    "version": 1,
-    "expires": "2024-03-08T15:32:00Z",
-    "targets": {}
+    "version": 2,
+    "expires": "2024-03-08T15:38:08Z",
+    "targets": {
+      "Joomla_5.1.1-Stable-Update_Package.zip": {
+        "length": 26114618,
+        "hashes": {
+          "sha512": "bdc96f606ef1e03c1f5a07ba1cf4269f3f6723f8862e713d27a903ebb0280e5ac224543136f5b16d755e85f40745b8dcc7d8d5b3819f2f96ce38d1b29eaae4c2"
+        },
+        "custom": {
+          "client": "site",
+          "description": "Joomla! 5.1.1 Release",
+          "downloads": [
+            {
+              "url": "https://github.com/joomla/joomla-cms/releases/download/5.1.1/Joomla_5.1.1-Stable-Update_Package.zip",
+              "format": "zip",
+              "type": "full"
+            },
+            {
+              "url": "https://update.joomla.org/releases/5.1.1/Joomla_5.1.1-Stable-Update_Package.zip",
+              "format": "zip",
+              "type": "full"
+            },
+            {
+              "url": "https://downloads.joomla.org/cms/joomla5/5-0-0/Joomla_5.1.1-Stable-Update_Package.zip",
+              "format": "zip",
+              "type": "full"
+            }
+          ],
+          "element": "joomla",
+          "infourl": {
+            "url": "https://www.joomla.org/announcements/release-news/1234",
+            "title": "Joomla! 5.1.1 Release"
+          },
+          "maintainer": "Joomla! Production Department",
+          "maintainerurl": "https://www.joomla.org",
+          "name": "Joomla! 5.1.1",
+          "php_minimum": "8.1.0",
+          "stability": "stable",
+          "supported_databases": {
+            "mariadb": "10.4",
+            "mysql": "8.0.13",
+            "postgresql": "11.0"
+          },
+          "targetplatform": {
+            "name": "joomla",
+            "version": "5.[1]"
+          },
+          "type": "file",
+          "version": "5.1.1"
+        }
+      }
+    }
   },
   "signatures": [
     {
       "keyid": "696a7598c714e545bb8a3a4248d82bf4c66486d142e226c1e06601a14f4d939a",
-      "sig": "e7983cc560b08482d45d75512d536ee009b01bf37bf22d61b4add303c606e990e5aa8396fc312badef9edf0564d9e852ba73bdea2ab000bcf286a2e9bc0d3805"
+      "sig": "bb814d9ab385baf46fdd52d725b9f24ee106dc865f1466f91127cdb8982d7ab984f4644f3224133b115b476b4b51562d7c910936d505a273af277662ba754e0c"
     }
   ]
 }
