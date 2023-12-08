@@ -1,0 +1,171 @@
+{
+  "signed": {
+    "_type": "targets",
+    "spec_version": "1.0",
+    "version": 4,
+    "expires": "2024-03-08T16:25:33Z",
+    "targets": {
+      "Joomla_5.1.1-Stable-Update_Package.zip": {
+        "length": 26114618,
+        "hashes": {
+          "sha512": "bdc96f606ef1e03c1f5a07ba1cf4269f3f6723f8862e713d27a903ebb0280e5ac224543136f5b16d755e85f40745b8dcc7d8d5b3819f2f96ce38d1b29eaae4c2"
+        },
+        "custom": {
+          "client": "site",
+          "description": "Joomla! 5.1.1 Release",
+          "downloads": [
+            {
+              "url": "https://github.com/joomla/joomla-cms/releases/download/5.1.1/Joomla_5.1.1-Stable-Update_Package.zip",
+              "format": "zip",
+              "type": "full"
+            },
+            {
+              "url": "https://update.joomla.org/releases/5.1.1/Joomla_5.1.1-Stable-Update_Package.zip",
+              "format": "zip",
+              "type": "full"
+            },
+            {
+              "url": "https://downloads.joomla.org/cms/joomla5/5-0-0/Joomla_5.1.1-Stable-Update_Package.zip",
+              "format": "zip",
+              "type": "full"
+            }
+          ],
+          "element": "joomla",
+          "infourl": {
+            "url": "https://www.joomla.org/announcements/release-news/1234",
+            "title": "Joomla! 5.1.1 Release"
+          },
+          "maintainer": "Joomla! Production Department",
+          "maintainerurl": "https://www.joomla.org",
+          "name": "Joomla! 5.1.1",
+          "php_minimum": "8.1.0",
+          "stability": "stable",
+          "supported_databases": {
+            "mariadb": "10.4",
+            "mysql": "8.0.13",
+            "postgresql": "11.0"
+          },
+          "targetplatform": {
+            "name": "joomla",
+            "version": "5.[1]"
+          },
+          "type": "file",
+          "version": "5.1.1"
+        }
+      },
+      "Joomla_5.5.1-Stable-Update_Package.zip": {
+        "length": 26114614,
+        "hashes": {
+          "sha512": "656a3a2c7115ca8ba931edf6c03514ef41898b8f655aa336e71ad3a85a845597ff1c4b79af1a14168055267478667b8cbed8cc42cbe24257160e75cf308660f2"
+        },
+        "custom": {
+          "client": "site",
+          "description": "Joomla! 5.5.1 Release",
+          "downloads": [
+            {
+              "url": "https://update.joomla.org/tuftest/Joomla_5.5.1-Stable-Update_Package.zip",
+              "format": "zip",
+              "type": "full"
+            },
+            {
+              "url": "https://github.com/joomla/joomla-cms/releases/download/5.5.1/Joomla_5.5.1-Stable-Update_Package.zip",
+              "format": "zip",
+              "type": "full"
+            },
+            {
+              "url": "https://update.joomla.org/releases/5.5.1/Joomla_5.5.1-Stable-Update_Package.zip",
+              "format": "zip",
+              "type": "full"
+            },
+            {
+              "url": "https://downloads.joomla.org/cms/joomla5/5-0-0/Joomla_5.5.1-Stable-Update_Package.zip",
+              "format": "zip",
+              "type": "full"
+            }
+          ],
+          "element": "joomla",
+          "infourl": {
+            "url": "https://www.joomla.org/announcements/release-news/",
+            "title": "Joomla! 5.5.1 Release"
+          },
+          "maintainer": "Joomla! Production Department",
+          "maintainerurl": "https://www.joomla.org",
+          "name": "Joomla! 5.5.1",
+          "php_minimum": "8.1.0",
+          "stability": "stable",
+          "supported_databases": {
+            "mariadb": "10.4",
+            "mysql": "8.0.13",
+            "postgresql": "11.0"
+          },
+          "targetplatform": {
+            "name": "joomla",
+            "version": "5.[1]"
+          },
+          "type": "file",
+          "version": "5.5.1"
+        }
+      },
+      "Joomla_5.5.3-Stable-Update_Package.zip": {
+        "length": 26114615,
+        "hashes": {
+          "sha512": "c20bb16642fab97f34f1332e0c04f5e8b8f1438691c69db4883609fcbc2a1c28ca656483244bbd421b7ddd5d6ed9c0794681093419f65a41d9184296850dea0e"
+        },
+        "custom": {
+          "client": "site",
+          "description": "Joomla! 5.5.3 Release",
+          "downloads": [
+            {
+              "url": "https://update.joomla.org/tuftest/Joomla_5.5.3-Stable-Update_Package.zip",
+              "format": "zip",
+              "type": "full"
+            },
+            {
+              "url": "https://github.com/joomla/joomla-cms/releases/download/5.5.3/Joomla_5.5.3-Stable-Update_Package.zip",
+              "format": "zip",
+              "type": "full"
+            },
+            {
+              "url": "https://update.joomla.org/releases/5.5.3/Joomla_5.5.3-Stable-Update_Package.zip",
+              "format": "zip",
+              "type": "full"
+            },
+            {
+              "url": "https://downloads.joomla.org/cms/joomla5/5-0-0/Joomla_5.5.3-Stable-Update_Package.zip",
+              "format": "zip",
+              "type": "full"
+            }
+          ],
+          "element": "joomla",
+          "infourl": {
+            "url": "https://www.joomla.org/announcements/release-news/",
+            "title": "Joomla! 5.5.3 Release"
+          },
+          "maintainer": "Joomla! Production Department",
+          "maintainerurl": "https://www.joomla.org",
+          "name": "Joomla! 5.5.3",
+          "php_minimum": "8.1.0",
+          "channel": "default",
+          "stability": "stable",
+          "supported_databases": {
+            "mariadb": "10.4",
+            "mysql": "8.0.13",
+            "postgresql": "11.0"
+          },
+          "targetplatform": {
+            "name": "joomla",
+            "version": "5.[1]"
+          },
+          "type": "file",
+          "version": "5.5.3"
+        }
+      }
+    }
+  },
+  "signatures": [
+    {
+      "keyid": "696a7598c714e545bb8a3a4248d82bf4c66486d142e226c1e06601a14f4d939a",
+      "sig": "939e275817c6375c780cf30b31132b663638208471a3180318df3f28af1f506f0a038ef219a69d66b4c6989f5c08e9d7369a9b465fcccc98a2c4d44c21976f0a"
+    }
+  ]
+}
