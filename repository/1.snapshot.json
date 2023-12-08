@@ -1,1 +1,23 @@
-{"signed":{"_type":"snapshot","spec_version":"1.0","version":1,"expires":"2023-12-15T15:32:08Z","meta":{"targets.json":{"length":338,"hashes":{"sha512":"a1b39b76e2ae1c033536211b206c4752341933c8068777bb171dae949a081a40e4541ad64950668916a0dd2b1af3450f1c0e7ffb38cfd3c90b0170ac2f36a483"},"version":1}}},"signatures":[{"keyid":"f9854d7c61e9413f4d83678be7d50310cc9e062027746d8936ba4736e75224e9","sig":"74ffd0a76a3a463420395299d78dd7b9fb41ad3f46ddb93607d0e073aa47212b0fad408aa98b9ddaa49c099c42e49d1bbb0ea91330c2e702ff8b44499e04b20d"}]}
+{
+  "signed": {
+    "_type": "snapshot",
+    "spec_version": "1.0",
+    "version": 1,
+    "expires": "2023-12-15T15:32:08Z",
+    "meta": {
+      "targets.json": {
+        "length": 338,
+        "hashes": {
+          "sha512": "a1b39b76e2ae1c033536211b206c4752341933c8068777bb171dae949a081a40e4541ad64950668916a0dd2b1af3450f1c0e7ffb38cfd3c90b0170ac2f36a483"
+        },
+        "version": 1
+      }
+    }
+  },
+  "signatures": [
+    {
+      "keyid": "f9854d7c61e9413f4d83678be7d50310cc9e062027746d8936ba4736e75224e9",
+      "sig": "74ffd0a76a3a463420395299d78dd7b9fb41ad3f46ddb93607d0e073aa47212b0fad408aa98b9ddaa49c099c42e49d1bbb0ea91330c2e702ff8b44499e04b20d"
+    }
+  ]
+}
