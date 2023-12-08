@@ -1,1 +1,15 @@
-{"signed":{"_type":"targets","spec_version":"1.0","version":1,"expires":"2024-03-08T15:32:00Z","targets":{}},"signatures":[{"keyid":"696a7598c714e545bb8a3a4248d82bf4c66486d142e226c1e06601a14f4d939a","sig":"e7983cc560b08482d45d75512d536ee009b01bf37bf22d61b4add303c606e990e5aa8396fc312badef9edf0564d9e852ba73bdea2ab000bcf286a2e9bc0d3805"}]}
+{
+  "signed": {
+    "_type": "targets",
+    "spec_version": "1.0",
+    "version": 1,
+    "expires": "2024-03-08T15:32:00Z",
+    "targets": {}
+  },
+  "signatures": [
+    {
+      "keyid": "696a7598c714e545bb8a3a4248d82bf4c66486d142e226c1e06601a14f4d939a",
+      "sig": "e7983cc560b08482d45d75512d536ee009b01bf37bf22d61b4add303c606e990e5aa8396fc312badef9edf0564d9e852ba73bdea2ab000bcf286a2e9bc0d3805"
+    }
+  ]
+}
