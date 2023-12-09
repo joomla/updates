@@ -6,16 +6,6 @@
       "url": "https://github.com/joomla/joomla-cms/releases/download/$VERSION/Joomla_$VERSION-Stable-Update_Package.zip",
       "format": "zip",
       "type": "full"
-    },
-    {
-      "url": "https://update.joomla.org/releases/$VERSION/Joomla_$VERSION-Stable-Update_Package.zip",
-      "format": "zip",
-      "type": "full"
-    },
-    {
-      "url": "https://downloads.joomla.org/cms/joomla4/4-1-0/Joomla_$VERSION-Stable-Update_Package.zip",
-      "format": "zip",
-      "type": "full"
     }
   ],
   "element": "joomla",
@@ -26,16 +16,17 @@
   "maintainer": "Joomla! Production Department",
   "maintainerurl": "https://www.joomla.org",
   "name": "PLACEHOLDER",
-  "php_minimum": "7.2.5",
-  "stability": "stable",
+  "php_minimum": "8.1.0",
+  "channel": "5.x",
+  "stability": "PLACEHOLDER",
   "supported_databases": {
-    "mariadb": "10.1",
-    "mysql": "5.6",
+    "mariadb": "10.4",
+    "mysql": "8.0.13",
     "postgresql": "11.0"
   },
   "targetplatform": {
     "name": "joomla",
-    "version": "4.[012]"
+    "version": "(5\.[0-4])|^(4\.4)"
   },
   "type": "file",
   "version": "PLACEHOLDER"
