@@ -13,7 +13,7 @@
       "type": "full"
     },
     {
-      "url": "https://downloads.joomla.org/cms/joomla5/5-0-0/Joomla_$VERSION-Stable-Update_Package.zip",
+      "url": "https://downloads.joomla.org/cms/joomla5/$DASHVERSION/Joomla_$VERSION-Stable-Update_Package.zip",
       "format": "zip",
       "type": "full"
     }
@@ -27,6 +27,7 @@
   "maintainerurl": "https://www.joomla.org",
   "name": "PLACEHOLDER",
   "php_minimum": "8.1.0",
+  "channel": "5.x",
   "stability": "stable",
   "supported_databases": {
     "mariadb": "10.4",
@@ -35,7 +36,7 @@
   },
   "targetplatform": {
     "name": "joomla",
-    "version": "5.[0]"
+    "version": "(5\\.[0-4])|^(4\\.4)"
   },
   "type": "file",
   "version": "PLACEHOLDER"
