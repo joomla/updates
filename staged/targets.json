@@ -1,0 +1,157 @@
+{
+  "signed": {
+    "_type": "targets",
+    "spec_version": "1.0",
+    "version": 4,
+    "expires": "2024-03-09T16:13:39Z",
+    "targets": {
+      "Joomla_5.5.1-Stable-Update_Package.zip": {
+        "length": 26114614,
+        "hashes": {
+          "sha512": "656a3a2c7115ca8ba931edf6c03514ef41898b8f655aa336e71ad3a85a845597ff1c4b79af1a14168055267478667b8cbed8cc42cbe24257160e75cf308660f2"
+        },
+        "custom": {
+          "client": "site",
+          "description": "Joomla! 5.5.1 Release",
+          "downloads": [
+            {
+              "url": "https://github.com/joomla/joomla-cms/releases/download/5.5.1/Joomla_5.5.1-Stable-Update_Package.zip",
+              "format": "zip",
+              "type": "full"
+            },
+            {
+              "url": "https://update.joomla.org/releases/5.5.1/Joomla_5.5.1-Stable-Update_Package.zip",
+              "format": "zip",
+              "type": "full"
+            },
+            {
+              "url": "https://downloads.joomla.org/cms/joomla5/5-0-0/Joomla_5.5.1-Stable-Update_Package.zip",
+              "format": "zip",
+              "type": "full"
+            }
+          ],
+          "element": "joomla",
+          "infourl": {
+            "url": "https://www.joomla.org/announcements/release-news/",
+            "title": "Joomla! 5.5.1 Release"
+          },
+          "maintainer": "Joomla! Production Department",
+          "maintainerurl": "https://www.joomla.org",
+          "name": "Joomla! 5.5.1",
+          "php_minimum": "8.1.0",
+          "stability": "stable",
+          "supported_databases": {
+            "mariadb": "10.4",
+            "mysql": "8.0.13",
+            "postgresql": "11.0"
+          },
+          "targetplatform": {
+            "name": "joomla",
+            "version": "5.[0]"
+          },
+          "type": "file",
+          "version": "5.5.1"
+        }
+      },
+      "Joomla_5.5.2-Stable-Update_Package.zip": {
+        "length": 26114615,
+        "hashes": {
+          "sha512": "8617bde4162c1d429f2a833210cfbc9b9e06f419eb1f0dab3141292c26f8214f62d2b3426c89e29ad2f49086ab275f1d39c3ac69f01b0d6490b003f49e625d37"
+        },
+        "custom": {
+          "client": "site",
+          "description": "Joomla! 5.5.2 Release",
+          "downloads": [
+            {
+              "url": "https://github.com/joomla/joomla-cms/releases/download/5.5.2/Joomla_5.5.2-Stable-Update_Package.zip",
+              "format": "zip",
+              "type": "full"
+            },
+            {
+              "url": "https://update.joomla.org/releases/5.5.2/Joomla_5.5.2-Stable-Update_Package.zip",
+              "format": "zip",
+              "type": "full"
+            },
+            {
+              "url": "https://downloads.joomla.org/cms/joomla5/5-5-2/Joomla_5.5.2-Stable-Update_Package.zip",
+              "format": "zip",
+              "type": "full"
+            }
+          ],
+          "element": "joomla",
+          "infourl": {
+            "url": "https://www.joomla.org/announcements/release-news/",
+            "title": "Joomla! 5.5.2 Release"
+          },
+          "maintainer": "Joomla! Production Department",
+          "maintainerurl": "https://www.joomla.org",
+          "name": "Joomla! 5.5.2",
+          "php_minimum": "8.1.0",
+          "channel": "5.x",
+          "stability": "stable",
+          "supported_databases": {
+            "mariadb": "10.4",
+            "mysql": "8.0.13",
+            "postgresql": "11.0"
+          },
+          "targetplatform": {
+            "name": "joomla",
+            "version": "(5\\.[0-4])|^(4\\.4)"
+          },
+          "type": "file",
+          "version": "5.5.2"
+        }
+      },
+      "Joomla_5.5.3-Stable-Update_Package.zip": {
+        "length": 26114615,
+        "hashes": {
+          "sha512": "c20bb16642fab97f34f1332e0c04f5e8b8f1438691c69db4883609fcbc2a1c28ca656483244bbd421b7ddd5d6ed9c0794681093419f65a41d9184296850dea0e"
+        },
+        "custom": {
+          "client": "site",
+          "description": "Joomla! 5.5.3 Release",
+          "downloads": [
+            {
+              "url": "https://github.com/joomla/joomla-cms/releases/download/5.5.3/Joomla_5.5.3-Stable-Update_Package.zip",
+              "format": "zip",
+              "type": "full"
+            },
+            {
+              "url": "https://update.joomla.org/releases/5.5.3/Joomla_5.5.3-Stable-Update_Package.zip",
+              "format": "zip",
+              "type": "full"
+            },
+            {
+              "url": "https://downloads.joomla.org/cms/joomla5/5-5-3/Joomla_5.5.3-Stable-Update_Package.zip",
+              "format": "zip",
+              "type": "full"
+            }
+          ],
+          "element": "joomla",
+          "infourl": {
+            "url": "https://www.joomla.org/announcements/release-news/",
+            "title": "Joomla! 5.5.3 Release"
+          },
+          "maintainer": "Joomla! Production Department",
+          "maintainerurl": "https://www.joomla.org",
+          "name": "Joomla! 5.5.3",
+          "php_minimum": "8.1.0",
+          "channel": "5.x",
+          "stability": "stable",
+          "supported_databases": {
+            "mariadb": "10.4",
+            "mysql": "8.0.13",
+            "postgresql": "11.0"
+          },
+          "targetplatform": {
+            "name": "joomla",
+            "version": "(5\\.[0-4])|^(4\\.4)"
+          },
+          "type": "file",
+          "version": "5.5.3"
+        }
+      }
+    }
+  },
+  "signatures": null
+}
