@@ -2,8 +2,8 @@
   "signed": {
     "_type": "targets",
     "spec_version": "1.0",
-    "version": 3,
-    "expires": "2024-03-09T14:59:58Z",
+    "version": 4,
+    "expires": "2024-03-09T16:13:39Z",
     "targets": {
       "Joomla_5.5.1-Stable-Update_Package.zip": {
         "length": 26114614,
@@ -101,13 +101,62 @@
           "type": "file",
           "version": "5.5.2"
         }
+      },
+      "Joomla_5.5.3-Stable-Update_Package.zip": {
+        "length": 26114615,
+        "hashes": {
+          "sha512": "c20bb16642fab97f34f1332e0c04f5e8b8f1438691c69db4883609fcbc2a1c28ca656483244bbd421b7ddd5d6ed9c0794681093419f65a41d9184296850dea0e"
+        },
+        "custom": {
+          "client": "site",
+          "description": "Joomla! 5.5.3 Release",
+          "downloads": [
+            {
+              "url": "https://github.com/joomla/joomla-cms/releases/download/5.5.3/Joomla_5.5.3-Stable-Update_Package.zip",
+              "format": "zip",
+              "type": "full"
+            },
+            {
+              "url": "https://update.joomla.org/releases/5.5.3/Joomla_5.5.3-Stable-Update_Package.zip",
+              "format": "zip",
+              "type": "full"
+            },
+            {
+              "url": "https://downloads.joomla.org/cms/joomla5/5-5-3/Joomla_5.5.3-Stable-Update_Package.zip",
+              "format": "zip",
+              "type": "full"
+            }
+          ],
+          "element": "joomla",
+          "infourl": {
+            "url": "https://www.joomla.org/announcements/release-news/",
+            "title": "Joomla! 5.5.3 Release"
+          },
+          "maintainer": "Joomla! Production Department",
+          "maintainerurl": "https://www.joomla.org",
+          "name": "Joomla! 5.5.3",
+          "php_minimum": "8.1.0",
+          "channel": "5.x",
+          "stability": "stable",
+          "supported_databases": {
+            "mariadb": "10.4",
+            "mysql": "8.0.13",
+            "postgresql": "11.0"
+          },
+          "targetplatform": {
+            "name": "joomla",
+            "version": "(5\\.[0-4])|^(4\\.4)"
+          },
+          "type": "file",
+          "version": "5.5.3"
+        }
       }
     }
   },
   "signatures": [
     {
       "keyid": "696a7598c714e545bb8a3a4248d82bf4c66486d142e226c1e06601a14f4d939a",
-      "sig": "4d09848cd1591b8a1bd851904b50a47bdfebe0cd38a1f1ae317f0c2c6ad2a3bba651f98aed85312a6fa578fa17d0a7ed0f19bf11ece418f166e26126f3027b01"
+      "sig": "3d0ceff658a4c88b43f142e7e007f1b6cfd49ca5c4d0d347dcb2d582d71091945b16b8033f81c746eb6339bbb0442cbdff9b9cb1370f927cc0dc85a5bf34440e"
     }
   ]
 }
