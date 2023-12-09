@@ -3,7 +3,7 @@
     "_type": "targets",
     "spec_version": "1.0",
     "version": 5,
-    "expires": "2024-03-09T11:37:49Z",
+    "expires": "2024-03-09T11:40:48Z",
     "targets": {
       "Joomla_5.1.1-Stable-Update_Package.zip": {
         "length": 26114618,
@@ -170,24 +170,24 @@
           "description": "Joomla! 5.5.4 Release",
           "downloads": [
             {
-              "url": "https://github.com/joomla/joomla-cms/releases/download/5.0.0/Joomla_5.0.0-Stable-Update_Package.zip",
+              "url": "https://github.com/joomla/joomla-cms/releases/download/5.5.4/Joomla_5.5.4-Stable-Update_Package.zip",
               "format": "zip",
               "type": "full"
             },
             {
-              "url": "https://update.joomla.org/releases/5.0.0/Joomla_5.0.0-Stable-Update_Package.zip",
+              "url": "https://update.joomla.org/releases/5.5.4/Joomla_5.5.4-Stable-Update_Package.zip",
               "format": "zip",
               "type": "full"
             },
             {
-              "url": "https://downloads.joomla.org/cms/joomla5/$DASHVERSION/Joomla_5.0.0-Stable-Update_Package.zip",
+              "url": "https://downloads.joomla.org/cms/joomla5/$DASHVERSION/Joomla_5.5.4-Stable-Update_Package.zip",
               "format": "zip",
               "type": "full"
             }
           ],
           "element": "joomla",
           "infourl": {
-            "url": "https://www.joomla.org/announcements/release-news/54",
+            "url": "https://www.joomla.org/announcements/release-news/",
             "title": "Joomla! 5.5.4 Release"
           },
           "maintainer": "Joomla! Production Department",
@@ -206,7 +206,7 @@
             "version": "(5\\.[0-4])|^(4\\.4)"
           },
           "type": "file",
-          "version": "5.0.0"
+          "version": "5.5.4"
         }
       }
     }
@@ -214,7 +214,7 @@
   "signatures": [
     {
       "keyid": "696a7598c714e545bb8a3a4248d82bf4c66486d142e226c1e06601a14f4d939a",
-      "sig": "01fa7ce489cb1310342a495def6b765f7088a223d6ef8287f7e18ae524d18828721e0e4d8ebfbc2e1933643aeda7ebcb9335d7c3b7e87a46105174486feb3e09"
+      "sig": "5a979ad260b85e46a26e499262c80e068fd237a6cc9ade9c9c10b05a7687a9c67cf52d11d936f9d5e2c6bcf3794b7ca0d2d8ab5e1ab446a71a725042d469be0f"
     }
   ]
 }
