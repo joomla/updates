@@ -103,5 +103,10 @@
     },
     "consistent_snapshot": true
   },
-  "signatures": null
+  "signatures": [
+    {
+      "keyid": "70c4fb4ffe87b8d75559092c75bc038d587790bf2ecb9d8d6c6c0fae6705c750",
+      "sig": "99eb7c1ef8225040e37e427c67427bba5fe2d42e2a11a7c04b503faf29a62d52b13acc0fd1039a6800ad3d1eacc62c3ef5b646c4df54c06fd2916fc927cc7e06"
+    }
+  ]
 }
