@@ -2,8 +2,8 @@
   "signed": {
     "_type": "root",
     "spec_version": "1.0",
-    "version": 3,
-    "expires": "2025-06-10T10:30:02Z",
+    "version": 4,
+    "expires": "2025-06-10T12:42:53Z",
     "keys": {
       "019b571e47e8dff8fa88f198117c9d3ddd687c0a33f0950ee0c1a2ef52317752": {
         "keytype": "ed25519",
@@ -71,6 +71,17 @@
           "public": "8f719efa1d9f7c529409755cc124ac556f83df457f56373dedf3ea1b2a875d39"
         }
       },
+      "ef9165a98b1cb074734e6d6b49252eaf3d5d3a5a194f6f8776a24aaed9b3555d": {
+        "keytype": "ed25519",
+        "scheme": "ed25519",
+        "keyid_hash_algorithms": [
+          "sha256",
+          "sha512"
+        ],
+        "keyval": {
+          "public": "2d937a2581eb7b1affe79ee230a2060d6aa9248b0f9f85b8c9b58d8e91c2f662"
+        }
+      },
       "f9854d7c61e9413f4d83678be7d50310cc9e062027746d8936ba4736e75224e9": {
         "keytype": "ed25519",
         "scheme": "ed25519",
@@ -94,6 +105,7 @@
         "keyids": [
           "f9854d7c61e9413f4d83678be7d50310cc9e062027746d8936ba4736e75224e9",
           "ID",
+          "ID",
           "ID"
         ],
         "threshold": 1
@@ -102,7 +114,8 @@
         "keyids": [
           "696a7598c714e545bb8a3a4248d82bf4c66486d142e226c1e06601a14f4d939a",
           "019b571e47e8dff8fa88f198117c9d3ddd687c0a33f0950ee0c1a2ef52317752",
-          "bfb5797114c9556476d27ff16a8e4335f95a8684a889e820211156652f9b7c32"
+          "bfb5797114c9556476d27ff16a8e4335f95a8684a889e820211156652f9b7c32",
+          "ef9165a98b1cb074734e6d6b49252eaf3d5d3a5a194f6f8776a24aaed9b3555d"
         ],
         "threshold": 1
       },
@@ -119,7 +132,7 @@
   "signatures": [
     {
       "keyid": "70c4fb4ffe87b8d75559092c75bc038d587790bf2ecb9d8d6c6c0fae6705c750",
-      "sig": "e8d2b5293dafc4683e6376fc6baf40929e42294c92f05d460d8f538f8834ad80cebc2fc60b00890b899bbd4b6e7e859a21d7f6ecc05b4d616d292b1c24146b0e"
+      "sig": "fb4365cfc0971c2f7fff4231b944cd1c7e0dbebcda445f834cd05eda30a28fff19c956a1ad610c55bc4526e54cafc03658582bb2ad8b558d42446ca0fd7adb07"
     }
   ]
 }
