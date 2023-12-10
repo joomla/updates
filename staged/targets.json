@@ -320,5 +320,10 @@
       }
     }
   },
-  "signatures": []
+  "signatures": [
+    {
+      "keyid": "696a7598c714e545bb8a3a4248d82bf4c66486d142e226c1e06601a14f4d939a",
+      "sig": "55a59c953fe1dce7ee21737c246eeb0b6039a8176440343eb7dfd6dbd20cb875bccfd9840798480af397ed5003c5e112d05acc4c4ef71bb20205316204005d06"
+    }
+  ]
 }
