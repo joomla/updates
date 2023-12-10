@@ -266,5 +266,10 @@
       }
     }
   },
-  "signatures": null
+  "signatures": [
+    {
+      "keyid": "696a7598c714e545bb8a3a4248d82bf4c66486d142e226c1e06601a14f4d939a",
+      "sig": "9a623ceb686e0d7a46867227a89d60b9e5ba2a84e77dd268f9b4aef9bbf9e07caf25b52d65f6f88416f07057fbd4ce31d2c6804b19fc2f64883cad20192d630f"
+    }
+  ]
 }
