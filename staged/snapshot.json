@@ -3,7 +3,7 @@
     "_type": "snapshot",
     "spec_version": "1.0",
     "version": 12,
-    "expires": "2023-12-17T11:48:18Z",
+    "expires": "2023-12-17T11:56:48Z",
     "meta": {
       "targets.json": {
         "length": 7601,
@@ -17,7 +17,7 @@
   "signatures": [
     {
       "keyid": "f9854d7c61e9413f4d83678be7d50310cc9e062027746d8936ba4736e75224e9",
-      "sig": "e0b2c0458d5cfa6ae7142879b32db198682113fc5e7307e240d0babef31ea35992bcf33c75834fb266bf3ec74d0e05c77e3fa138bffa28cbab4a4a364bf4db04"
+      "sig": "01cc307a7fcd1062dfdb966aff81a70b0cf8edac643a60e54fff572d6ef7963bb857001381ff0193e62e67285a60ed46695f38883780e6d3442d9ae6f52b1905"
     }
   ]
 }
