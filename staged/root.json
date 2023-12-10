@@ -129,5 +129,10 @@
     },
     "consistent_snapshot": true
   },
-  "signatures": []
+  "signatures": [
+    {
+      "keyid": "70c4fb4ffe87b8d75559092c75bc038d587790bf2ecb9d8d6c6c0fae6705c750",
+      "sig": "fb4365cfc0971c2f7fff4231b944cd1c7e0dbebcda445f834cd05eda30a28fff19c956a1ad610c55bc4526e54cafc03658582bb2ad8b558d42446ca0fd7adb07"
+    }
+  ]
 }
