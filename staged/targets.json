@@ -3,7 +3,7 @@
     "_type": "targets",
     "spec_version": "1.0",
     "version": 6,
-    "expires": "2024-03-10T11:15:00Z",
+    "expires": "2024-03-10T11:25:28Z",
     "targets": {
       "Joomla_5.0.4-Stable-Update_Package.zip": {
         "length": 26109728,
@@ -261,10 +261,5 @@
       }
     }
   },
-  "signatures": [
-    {
-      "keyid": "696a7598c714e545bb8a3a4248d82bf4c66486d142e226c1e06601a14f4d939a",
-      "sig": "b8128ed3b2d65924dfa26440962b86abdbe38d34be87ec5d7639d00874cb1a30f0a0693799156e588dd57062738cfc1d5e77d08682dcbedf4dbdc1fe97894a04"
-    }
-  ]
+  "signatures": null
 }
