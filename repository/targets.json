@@ -2,8 +2,8 @@
   "signed": {
     "_type": "targets",
     "spec_version": "1.0",
-    "version": 5,
-    "expires": "2024-03-09T16:24:55Z",
+    "version": 6,
+    "expires": "2024-03-10T12:06:37Z",
     "targets": {
       "Joomla_5.5.1-Stable-Update_Package.zip": {
         "length": 26114614,
@@ -112,6 +112,11 @@
           "description": "Joomla! 5.5.3 Release",
           "downloads": [
             {
+              "url": "https://update.joomla.org/tuftest/Joomla_5.5.3-Stable-Update_Package.zip",
+              "format": "zip",
+              "type": "full"
+            },
+            {
               "url": "https://github.com/joomla/joomla-cms/releases/download/5.5.3/Joomla_5.5.3-Stable-Update_Package.zip",
               "format": "zip",
               "type": "full"
@@ -210,7 +215,7 @@
   "signatures": [
     {
       "keyid": "696a7598c714e545bb8a3a4248d82bf4c66486d142e226c1e06601a14f4d939a",
-      "sig": "8a23be42627f8685598fe781d393d483755a26bc3413a201f20a42a1cca6444d1c9e449ca7c89f76ed65d73d79e9ec9cf0a493465bebf82b3c36a3473cba1602"
+      "sig": "1bf9b1776a37e9dc2bd80a8dcd6f1123d6e1137871a292fdf53cb2ed89c79912de3c3528a437a741769135e3dab27e7f3d61bc553c3402ac598b485ad1551509"
     }
   ]
 }
