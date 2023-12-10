@@ -3,21 +3,21 @@
     "_type": "snapshot",
     "spec_version": "1.0",
     "version": 12,
-    "expires": "2023-12-17T11:56:48Z",
+    "expires": "2023-12-17T12:09:57Z",
     "meta": {
       "targets.json": {
-        "length": 7601,
+        "length": 7787,
         "hashes": {
-          "sha512": "9306d572cd99362914a5cca9cd070d1bc52f2eab8347e83db7da9b5dc9c7a32cf0dbf5b2e0e4369c6f1ed1b6f97202bc8c13b7b232e0b640a95172df733d14b9"
+          "sha512": "586cc49bc61dd453e7bd5ab98c8d353a5169a9ac43debeb97597599f2757ccfba1185c76116806758142ebe94f9749ad36e95fde85e4d06b6762d13196139348"
         },
-        "version": 5
+        "version": 6
       }
     }
   },
   "signatures": [
     {
       "keyid": "f9854d7c61e9413f4d83678be7d50310cc9e062027746d8936ba4736e75224e9",
-      "sig": "01cc307a7fcd1062dfdb966aff81a70b0cf8edac643a60e54fff572d6ef7963bb857001381ff0193e62e67285a60ed46695f38883780e6d3442d9ae6f52b1905"
+      "sig": "2da2803020cd294f4e96f48d580b3dc99b16fed514876dc25fbb7e8342bd347cf7226038e57551aaa75076c2d0b133b7a096854797c283d9594175ca30429f0b"
     }
   ]
 }
