@@ -2,9 +2,63 @@
   "signed": {
     "_type": "targets",
     "spec_version": "1.0",
-    "version": 8,
-    "expires": "2024-03-10T12:31:28Z",
+    "version": 9,
+    "expires": "2024-03-10T12:49:12Z",
     "targets": {
+      "Joomla_5-0-0-Stable-Update_Package.zip": {
+        "length": 25976799,
+        "hashes": {
+          "sha512": "d3f773ea94dd2de33d8fa3e9909c57e6bb5966daa54df02cb6426c823e77bf12d73fa05d92b365db8df4b1bbd98ea4993bec10eb8b3f8557d6aa544e497cda05"
+        },
+        "custom": {
+          "client": "site",
+          "description": "Joomla! 5.0.0 Release",
+          "downloads": [
+            {
+              "url": "https://update.joomla.org/tuftest/Joomla_5.0.0-Stable-Update_Package.zip",
+              "format": "zip",
+              "type": "full"
+            },
+            {
+              "url": "https://github.com/joomla/joomla-cms/releases/download/5.0.0/Joomla_5.0.0-Stable-Update_Package.zip",
+              "format": "zip",
+              "type": "full"
+            },
+            {
+              "url": "https://update.joomla.org/releases/5.0.0/Joomla_5.0.0-Stable-Update_Package.zip",
+              "format": "zip",
+              "type": "full"
+            },
+            {
+              "url": "https://downloads.joomla.org/cms/joomla5/5-0-0/Joomla_5.0.0-Stable-Update_Package.zip",
+              "format": "zip",
+              "type": "full"
+            }
+          ],
+          "element": "joomla",
+          "infourl": {
+            "url": "https://www.joomla.org/announcements/release-news/",
+            "title": "Joomla! 5.0.0 Release"
+          },
+          "maintainer": "Joomla! Production Department",
+          "maintainerurl": "https://www.joomla.org",
+          "name": "Joomla! 5.0.0",
+          "php_minimum": "8.1.0",
+          "channel": "5.x",
+          "stability": "stable",
+          "supported_databases": {
+            "mariadb": "10.4",
+            "mysql": "8.0.13",
+            "postgresql": "11.0"
+          },
+          "targetplatform": {
+            "name": "joomla",
+            "version": "(5\\.[0-4])|^(4\\.4)"
+          },
+          "type": "file",
+          "version": "5.0.0"
+        }
+      },
       "Joomla_5.5.1-Stable-Update_Package.zip": {
         "length": 26114614,
         "hashes": {
@@ -323,7 +377,11 @@
   "signatures": [
     {
       "keyid": "696a7598c714e545bb8a3a4248d82bf4c66486d142e226c1e06601a14f4d939a",
-      "sig": "55a59c953fe1dce7ee21737c246eeb0b6039a8176440343eb7dfd6dbd20cb875bccfd9840798480af397ed5003c5e112d05acc4c4ef71bb20205316204005d06"
+      "sig": "a3fb7c7fe3d9779bcc8fc7ed4986670d2e9838915d9665a317fab88a194dc40d5e858ace35e820a95a1744b2e5322da15800c3e323d151b7ddaa752f5ea46b02"
+    },
+    {
+      "keyid": "ef9165a98b1cb074734e6d6b49252eaf3d5d3a5a194f6f8776a24aaed9b3555d",
+      "sig": "5232a7facb7c3320c9ab187b195bf7d1c25858fb3e5b5e318664c507f7ee43c4932ab5f9e3d0048c86851850a147884e72541ecd5efaf93882e126e0f9edcd0c"
     }
   ]
 }
