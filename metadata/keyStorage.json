@@ -2,7 +2,9 @@
   "34501d57fc0ef8c9b873a5d90802b3a193578825cb2454e91d8be041e73b3e1c": {
     "keyId": "34501d57fc0ef8c9b873a5d90802b3a193578825cb2454e91d8be041e73b3e1c",
     "name": "My Name",
-    "role": ["targets"],
+    "role": [
+      "targets"
+    ],
     "publicKey": "7b39e51b8c816b95cb209adf38e246681a33c91538d05994ab48bed63d275970"
   }
 }
