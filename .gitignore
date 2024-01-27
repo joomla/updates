@@ -1,6 +1,10 @@
 keys/
 staged/targets/*
 repository/targets/*
+watchdog/metadata/snapshot.json
+watchdog/metadata/targets.json
+watchdog/metadata/timestamp.json
+watchdog/vendor/*
 .bash_history
 .config/
 .gitconfig
