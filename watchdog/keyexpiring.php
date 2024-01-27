@@ -12,9 +12,6 @@ use Tuf\Loader\SizeCheckingLoader;
 
 require_once 'vendor/autoload.php';
 
-ini_set('display_errors', 1);
-error_reporting(-1);
-
 $config = [
     'repository' => 'https://raw.githubusercontent.com/joomla/updates',
     'branch' => 'dec23-target',
