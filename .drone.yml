@@ -10,40 +10,39 @@ steps:
         from_secret: ACCESS_TOKEN
       KEY_TIMESTAMP:
         from_secret: KEY_TIMESTAMP
-      TUF_TIMESTAMP_PASSPHRASE:
-        from_secret: KEY_TIMESTAMP_PASSPHRASE
       GIT_USER_NAME: Joomla Drone
       GIT_USER_EMAIL: ci@joomla.org
       GIT_BASE_BRANCH_NAME: main
       GIT_TARGET_BRANCH_NAME: ${DRONE_BRANCH}
     commands:
-      - mkdir -p keys || true
-      - echo $$KEY_TIMESTAMP > keys/timestamp.json
+      - mkdir -p /go/keys || true
+      - echo $$KEY_TIMESTAMP > /go/keys/timestamp.json
+      - cd /go
       - /tuf/docker-entrypoint.sh update-timestamp
 
   - name: upload
     image: joomlaprojects/docker-images:packager
     environment:
-      package_key:
-        from_secret: package_key
-      package_user:
-        from_secret: package_user
-      package_host:
-        from_secret: package_host
-      package_root:
-        from_secret: package_root
+      rclone_key:
+        from_secret: RCLONE_KEY
+      rclone_user:
+        from_secret: RCLONE_USER
+      rclone_host:
+        from_secret: RCLONE_HOST
+      rclone_root:
+        from_secret: RCLONE_ROOT
       GITHUB_TOKEN:
-        from_secret: github_token
+        from_secret: ACCESS_TOKEN
     commands:
       - mkdir -p ~/.ssh
       - eval $(ssh-agent -s)
       - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
-      - echo "$package_key" > ~/.ssh/id_rsa
+      - echo "$rclone_key" > ~/.ssh/id_rsa
       - chmod 600 ~/.ssh/id_rsa
       - ssh-add
-      - rclone config create package sftp host $package_host user $package_user port 22
-      - rclone copy ./upload/ package:$package_root/$DRONE_REPO/$DRONE_BRANCH/$DRONE_PULL_REQUEST/downloads/$DRONE_BUILD_NUMBER
-      - /bin/add_github_status.sh "Download" "Prebuilt packages are available for download." "https://artifacts.joomla.org/drone/${DRONE_REPO}/${DRONE_BRANCH}/${DRONE_PULL_REQUEST}/downloads/${DRONE_BUILD_NUMBER}"
+      - rclone config create upload sftp host $rclone_host user $rclone_user port 22
+      - rclone copy ./repository/ upload:$rclone_root
+      - /bin/add_github_status.sh "Repository deployed" "Tuf Repository timestamp Updated and deployed to update server." "https://update.joomla.org/cms"
 
 trigger:
   branch:
@@ -53,5 +52,5 @@ trigger:
     - push
 ---
 kind: signature
-hmac: 5c9da04bd4d1d4823ccf3ea820e479771bd3440d315b4ee97965a1f7e5175cf6
+hmac: 4fccfa8faeef55bdf6c12bec1e9d5ee9eb36a7910208f363dcb691dca3ec565f
 ...
