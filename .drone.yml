@@ -21,6 +21,30 @@ steps:
       - echo $$KEY_TIMESTAMP > keys/timestamp.json
       - /tuf/docker-entrypoint.sh update-timestamp
 
+  - name: upload
+    image: joomlaprojects/docker-images:packager
+    environment:
+      package_key:
+        from_secret: package_key
+      package_user:
+        from_secret: package_user
+      package_host:
+        from_secret: package_host
+      package_root:
+        from_secret: package_root
+      GITHUB_TOKEN:
+        from_secret: github_token
+    commands:
+      - mkdir -p ~/.ssh
+      - eval $(ssh-agent -s)
+      - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
+      - echo "$package_key" > ~/.ssh/id_rsa
+      - chmod 600 ~/.ssh/id_rsa
+      - ssh-add
+      - rclone config create package sftp host $package_host user $package_user port 22
+      - rclone copy ./upload/ package:$package_root/$DRONE_REPO/$DRONE_BRANCH/$DRONE_PULL_REQUEST/downloads/$DRONE_BUILD_NUMBER
+      - /bin/add_github_status.sh "Download" "Prebuilt packages are available for download." "https://artifacts.joomla.org/drone/${DRONE_REPO}/${DRONE_BRANCH}/${DRONE_PULL_REQUEST}/downloads/${DRONE_BUILD_NUMBER}"
+
 trigger:
   branch:
     - main
