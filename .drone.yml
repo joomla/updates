@@ -1,0 +1,33 @@
+---
+kind: pipeline
+name: default
+clone:
+steps:
+  - name: timestamp
+    image: joomlaprojects/docker-images:updater
+    environment:
+      ACCESS_TOKEN:
+        from_secret: ACCESS_TOKEN
+      KEY_TIMESTAMP:
+        from_secret: KEY_TIMESTAMP
+      TUF_TIMESTAMP_PASSPHRASE:
+        from_secret: KEY_TIMESTAMP_PASSPHRASE
+      GIT_USER_NAME: Joomla Drone
+      GIT_USER_EMAIL: ci@joomla.org
+      GIT_BASE_BRANCH_NAME: main
+      GIT_TARGET_BRANCH_NAME: ${DRONE_BRANCH}
+    commands:
+      - mkdir -p keys || true
+      - echo $$KEY_TIMESTAMP > keys/timestamp.json
+      - /tuf/docker-entrypoint.sh update-timestamp
+
+trigger:
+  branch:
+    - main
+  event:
+    - cron
+    - push
+---
+kind: signature
+hmac: 5c9da04bd4d1d4823ccf3ea820e479771bd3440d315b4ee97965a1f7e5175cf6
+...

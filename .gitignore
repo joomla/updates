@@ -1,0 +1,6 @@
+.config/
+keys/
+staged/targets/*
+repository/targets/*
+.bash_history
+.gitconfig
