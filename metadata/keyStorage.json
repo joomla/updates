@@ -6,5 +6,13 @@
             "root"
         ],
         "publicKey": "cb0a7a131961a20edea051d6dc2b091fb650bd399bd8514adb67b3c60db9f8f9"
+    },
+    "ecc851a051c8d6439331ff0a37c7727321fc39896a34f950f73638b8a7cb472e": {
+        "keyId": "ecc851a051c8d6439331ff0a37c7727321fc39896a34f950f73638b8a7cb472e",
+        "name": "Martina Scholz",
+        "role": [
+            "targets"
+        ],
+        "publicKey": "5d451915bc2b93a0e4e4745bc6a8b292d58996d50e0fb66c78c7827152a65879"
     }
 }
