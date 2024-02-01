@@ -1,4 +1,5 @@
-# Test branch!
+# Bootstrap Repository for Joomla TUF Updates
 
-# updates
+# Updates
+
 The signed Updates repository for Joomla! core
