@@ -14,5 +14,13 @@
             "targets"
         ],
         "publicKey": "5d451915bc2b93a0e4e4745bc6a8b292d58996d50e0fb66c78c7827152a65879"
+    },
+    "e2229942b0fc1e6d7f82adf258e5bdadac10046d1470b7ec459c9eb4e076026b": {
+        "keyId": "e2229942b0fc1e6d7f82adf258e5bdadac10046d1470b7ec459c9eb4e076026b",
+        "name": "Benjamin Trenkle",
+        "role": [
+            "targets"
+        ],
+        "publicKey": "ad1950e117b29ebe7a38635a2e574123e07571e4f9a011783e053b5f15d2562a"
     }
 }
