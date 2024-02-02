@@ -49,7 +49,6 @@ trigger:
     - main
   event:
     - cron
-    - push
 ---
 kind: signature
 hmac: 4fccfa8faeef55bdf6c12bec1e9d5ee9eb36a7910208f363dcb691dca3ec565f
