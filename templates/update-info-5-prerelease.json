@@ -3,7 +3,7 @@
   "description": "PLACEHOLDER",
   "downloads": [
     {
-      "url": "https://github.com/joomla/joomla-cms/releases/download/$VERSION/Joomla_$VERSION-Stable-Update_Package.zip",
+      "url": "https://github.com/joomla/joomla-cms/releases/download/$VERSION/Joomla_$VERSION-$STABILITY-Update_Package.zip",
       "format": "zip",
       "type": "full"
     }
@@ -26,7 +26,7 @@
   },
   "targetplatform": {
     "name": "joomla",
-    "version": "(5\.[0-4])|^(4\.4)"
+    "version": "(5\\.[0-4])|^(4\\.4)"
   },
   "type": "file",
   "version": "PLACEHOLDER"
