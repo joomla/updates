@@ -3,17 +3,17 @@
   "description": "PLACEHOLDER",
   "downloads": [
     {
+      "url": "https://downloads.joomla.org/cms/joomla5/$DASHVERSION/Joomla_$VERSION-$STABILITY-Update_Package.zip",
+      "format": "zip",
+      "type": "full"
+    },
+    {
       "url": "https://github.com/joomla/joomla-cms/releases/download/$VERSION/Joomla_$VERSION-$STABILITY-Update_Package.zip",
       "format": "zip",
       "type": "full"
     },
     {
       "url": "https://update.joomla.org/releases/$VERSION/Joomla_$VERSION-$STABILITY-Update_Package.zip",
-      "format": "zip",
-      "type": "full"
-    },
-    {
-      "url": "https://downloads.joomla.org/cms/joomla5/$DASHVERSION/Joomla_$VERSION-$STABILITY-Update_Package.zip",
       "format": "zip",
       "type": "full"
     }
