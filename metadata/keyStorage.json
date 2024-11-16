@@ -54,14 +54,5 @@
             "targets"
         ],
         "publicKey": "ad1950e117b29ebe7a38635a2e574123e07571e4f9a011783e053b5f15d2562a"
-    },
-    "5883fa7722f66fbcabd94a599d63824d17022b2886e56a6ab45dab1cd02d52f7": {
-        "keyId": "5883fa7722f66fbcabd94a599d63824d17022b2886e56a6ab45dab1cd02d52f7",
-        "name": "Test Key",
-        "role": [
-            "snapshot",
-            "targets"
-        ],
-        "publicKey": "f643be0f6c171e616a548bb413f2219e93017e808a165e806b39aa7bf0c791aa"
     }
 }
