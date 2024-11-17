@@ -54,5 +54,14 @@
             "targets"
         ],
         "publicKey": "ad1950e117b29ebe7a38635a2e574123e07571e4f9a011783e053b5f15d2562a"
+    },
+    "bfee044dd4574a281c9b7c0b6829913ef292c66c0512d1091a298cfca8493da9": {
+        "keyId": "bfee044dd4574a281c9b7c0b6829913ef292c66c0512d1091a298cfca8493da9",
+        "name": "Robert Deutz",
+        "role": [
+            "snapshot",
+            "targets"
+        ],
+        "publicKey": "6eb44460e5914e8e0df726ddb90bd1f3771b8ce5af19b40fb01ac5a85b023a6f"
     }
 }
