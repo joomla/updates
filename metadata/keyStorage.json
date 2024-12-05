@@ -63,5 +63,13 @@
             "targets"
         ],
         "publicKey": "6eb44460e5914e8e0df726ddb90bd1f3771b8ce5af19b40fb01ac5a85b023a6f"
+    },
+    "9eabc37383b243cd236375c66693db385911914b52556e1ec05fc70ed45e1bfe": {
+        "keyId": "9eabc37383b243cd236375c66693db385911914b52556e1ec05fc70ed45e1bfe",
+        "name": "Hannes Papenberg",
+        "role": [
+            "targets"
+        ],
+        "publicKey": "a4b8509488f1c29ab0b1f610e7452fbec78b4f33f1fba5a418d6ff087c567429"
     }
 }
