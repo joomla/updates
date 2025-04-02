@@ -33,6 +33,10 @@ steps:
         from_secret: RCLONE_ROOT
       GITHUB_TOKEN:
         from_secret: ACCESS_TOKEN
+      CLOUDFLARE_TOKEN:
+        from_secret: CLOUDFLARE_TOKEN
+      CLOUDFLARE_ZONE_ID:
+        from_secret: CLOUDFLARE_ZONE_ID
     commands:
       - mkdir -p ~/.ssh
       - eval $(ssh-agent -s)
@@ -53,5 +57,5 @@ trigger:
     - custom
 ---
 kind: signature
-hmac: c9d6b67f8b7f1de38510a1bb01fa9035ce8e30a4723f9067851ec9e32ccf0383
+hmac: 4e2f19aa493956b0c006061b1238054ca515b4a9d704cbc62f89819a33385612
 ...
