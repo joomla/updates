@@ -46,7 +46,7 @@ steps:
       - ssh-add
       - rclone config create upload sftp host $rclone_host user $rclone_user port 22
       - rclone copy ./repository/ upload:$rclone_root/cms
-      - /bin/cloudflare_clear_cache updates.joomla.org/cms
+      - /bin/cloudflare_clear_cache update.joomla.org/cms
       - /bin/add_github_status.sh "Repository deployed" "Tuf Repository timestamp Updated and deployed to update server." "https://update.joomla.org/cms"
 
 trigger:
@@ -57,5 +57,5 @@ trigger:
     - custom
 ---
 kind: signature
-hmac: 4e2f19aa493956b0c006061b1238054ca515b4a9d704cbc62f89819a33385612
+hmac: b5ec9fe167f21c1873d2ce794024c6aa3600cea88b17d03f50a70dbe3f15089c
 ...
