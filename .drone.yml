@@ -12,7 +12,7 @@ steps:
         from_secret: KEY_TIMESTAMP
       GIT_USER_NAME: Joomla Drone
       GIT_USER_EMAIL: ci@joomla.org
-      GIT_BASE_BRANCH_NAME: main
+      GIT_BASE_BRANCH_NAME: alpha
       GIT_TARGET_BRANCH_NAME: ${DRONE_BRANCH}
     commands:
       - mkdir -p /go/keys || true
@@ -45,17 +45,17 @@ steps:
       - chmod 600 ~/.ssh/id_rsa
       - ssh-add
       - rclone config create upload sftp host $rclone_host user $rclone_user port 22
-      - rclone copy ./repository/ upload:$rclone_root/cms
-      - /bin/cloudflare_clear_cache update.joomla.org/cms
+      - rclone copy ./repository/ upload:$rclone_root/alpha
+      - /bin/cloudflare_clear_cache update.joomla.org/alpha
       - /bin/add_github_status.sh "Repository deployed" "Tuf Repository timestamp Updated and deployed to update server." "https://update.joomla.org/cms"
 
 trigger:
   branch:
-    - main
+    - alpha
   event:
     - cron
     - custom
 ---
 kind: signature
-hmac: b5ec9fe167f21c1873d2ce794024c6aa3600cea88b17d03f50a70dbe3f15089c
+hmac: 417952fe1e657def386ee086d15feb9d2c45135bc5d90a0aa469761fd199d6a4
 ...
