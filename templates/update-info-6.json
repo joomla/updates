@@ -1,0 +1,43 @@
+{
+  "client": "site",
+  "description": "PLACEHOLDER",
+  "downloads": [
+    {
+      "url": "https://downloads.joomla.org/cms/joomla6/$DASHVERSION/Joomla_$VERSION-$STABILITY-Update_Package.zip",
+      "format": "zip",
+      "type": "full"
+    },
+    {
+      "url": "https://github.com/joomla/joomla-cms/releases/download/$VERSION/Joomla_$VERSION-$STABILITY-Update_Package.zip",
+      "format": "zip",
+      "type": "full"
+    },
+    {
+      "url": "https://update.joomla.org/releases/$VERSION/Joomla_$VERSION-$STABILITY-Update_Package.zip",
+      "format": "zip",
+      "type": "full"
+    }
+  ],
+  "element": "joomla",
+  "infourl": {
+    "url": "https://www.joomla.org/announcements/release-news/PLACEHOLDER",
+    "title": "PLACEHOLDER"
+  },
+  "maintainer": "Joomla! Production Department",
+  "maintainerurl": "https://www.joomla.org",
+  "name": "PLACEHOLDER",
+  "php_minimum": "8.3.0",
+  "channel": "6.x",
+  "stability": "PLACEHOLDER",
+  "supported_databases": {
+    "mariadb": "10.6",
+    "mysql": "8.0.13",
+    "postgresql": "14.0"
+  },
+  "targetplatform": {
+    "name": "joomla",
+    "version": "(6\\.[0-4])|^(5\\.4)"
+  },
+  "type": "file",
+  "version": "PLACEHOLDER"
+}
