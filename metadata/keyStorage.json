@@ -71,5 +71,13 @@
             "targets"
         ],
         "publicKey": "a4b8509488f1c29ab0b1f610e7452fbec78b4f33f1fba5a418d6ff087c567429"
+    },
+    "273e94e5477e306ad6de75be1524860e219e265ff9a57c81ababd0691e45706c": {
+        "keyId": "273e94e5477e306ad6de75be1524860e219e265ff9a57c81ababd0691e45706c",
+        "name": "Gary Barclay",
+        "role": [
+            "targets"
+        ],
+        "publicKey": "1cb6702338830ef1c9e76a022fed27172d475bbaace754d8141ebc96dad8b15f"
     }
 }
