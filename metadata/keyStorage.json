@@ -79,5 +79,14 @@
             "targets"
         ],
         "publicKey": "1cb6702338830ef1c9e76a022fed27172d475bbaace754d8141ebc96dad8b15f"
+    },
+    "00e432b504508246e2bd536dd6c13e55e8b3256f0be9f767fae26da6c2a28663": {
+        "keyId": "00e432b504508246e2bd536dd6c13e55e8b3256f0be9f767fae26da6c2a28663",
+        "name": "Richard Fath",
+        "role": [
+            "snapshot",
+            "targets"
+        ],
+        "publicKey": "250f8d293c49817a83909dead96ad82b62f7ac16844cf589f8d2f0e0b15cab21"
     }
 }
