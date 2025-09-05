@@ -88,5 +88,13 @@
             "targets"
         ],
         "publicKey": "250f8d293c49817a83909dead96ad82b62f7ac16844cf589f8d2f0e0b15cab21"
+    },
+    "a1a4b7fdbeedfdeff12d7776de098a2f8de8d2ab7bfe10062a281b3819b078c1": {
+        "keyId": "a1a4b7fdbeedfdeff12d7776de098a2f8de8d2ab7bfe10062a281b3819b078c1",
+        "name": "Stefan Wendhausen",
+        "role": [
+            "targets"
+        ],
+        "publicKey": "ea764b0b475b3c396627ac6689cbd8f54a5f93e87b6f5e3eb44a7ccafb542ff3"
     }
 }
