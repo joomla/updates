@@ -20,9 +20,9 @@
   "channel": "6.x",
   "stability": "PLACEHOLDER",
   "supported_databases": {
-    "mariadb": "10.6",
+    "mariadb": "10.4",
     "mysql": "8.0.13",
-    "postgresql": "14.0"
+    "postgresql": "12.0"
   },
   "targetplatform": {
     "name": "joomla",
