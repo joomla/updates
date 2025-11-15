@@ -71,5 +71,14 @@
             "targets"
         ],
         "publicKey": "a4b8509488f1c29ab0b1f610e7452fbec78b4f33f1fba5a418d6ff087c567429"
+    },
+    "e5b6eeb26632cbeb9aafceadef89e2ec91b1716a258c14bbc14734e303878be7": {
+        "keyId": "e5b6eeb26632cbeb9aafceadef89e2ec91b1716a258c14bbc14734e303878be7",
+        "name": "test root key 3",
+        "role": [
+            "snapshot",
+            "root"
+        ],
+        "publicKey": "d25e1607cb65d08d763e74f20105ef0a53c53e19a3cdf658e1877a962851740b"
     }
 }
