@@ -96,5 +96,14 @@
             "targets"
         ],
         "publicKey": "ea764b0b475b3c396627ac6689cbd8f54a5f93e87b6f5e3eb44a7ccafb542ff3"
+    },
+    "192ad7343e7d431533d9577fd957b6f924680177db4dc6c0e146dad6810a90a4": {
+        "keyId": "192ad7343e7d431533d9577fd957b6f924680177db4dc6c0e146dad6810a90a4",
+        "name": "Sigrid Gramlinger",
+        "role": [
+            "snapshot",
+            "root"
+        ],
+        "publicKey": "042b66e1431a1f5c2c15b4a16ea60f23f466851b58e9ff057dbfc2a5e0d821d1"
     }
 }
