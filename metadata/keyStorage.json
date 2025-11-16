@@ -105,5 +105,13 @@
             "root"
         ],
         "publicKey": "042b66e1431a1f5c2c15b4a16ea60f23f466851b58e9ff057dbfc2a5e0d821d1"
+    },
+    "a599a27a3ec4d520059c591338759dc401006b1c4cb1db85a286e667253d28b6": {
+        "keyId": "a599a27a3ec4d520059c591338759dc401006b1c4cb1db85a286e667253d28b6",
+        "name": "Sigrid Gramlinger snapshot",
+        "role": [
+            "snapshot"
+        ],
+        "publicKey": "45e416d24d13a60ace5ab028827d5cfc8ba177bb9466bf2acd8efa6e3547911a"
     }
 }
