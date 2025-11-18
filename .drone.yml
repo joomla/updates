@@ -12,7 +12,7 @@ steps:
         from_secret: KEY_TIMESTAMP
       GIT_USER_NAME: Joomla Drone
       GIT_USER_EMAIL: ci@joomla.org
-      GIT_BASE_BRANCH_NAME: main
+      GIT_BASE_BRANCH_NAME: test
       GIT_TARGET_BRANCH_NAME: ${DRONE_BRANCH}
     commands:
       - mkdir -p /go/keys || true
@@ -51,11 +51,11 @@ steps:
 
 trigger:
   branch:
-    - main
+    - test
   event:
     - cron
     - custom
 ---
 kind: signature
-hmac: b5ec9fe167f21c1873d2ce794024c6aa3600cea88b17d03f50a70dbe3f15089c
+hmac: 8a87bf48d48a7a9ac4f6183e501c6734181f0c72477cdeeb8b17cd3be95f96a7
 ...
