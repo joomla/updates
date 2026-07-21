@@ -113,5 +113,14 @@
             "snapshot"
         ],
         "publicKey": "45e416d24d13a60ace5ab028827d5cfc8ba177bb9466bf2acd8efa6e3547911a"
+    },
+    "284c8164fd395e9178dc66929787f0650cda6acff0fd769ef697203d7553c481": {
+        "keyId": "284c8164fd395e9178dc66929787f0650cda6acff0fd769ef697203d7553c481",
+        "name": "Viviana Menzel",
+        "role": [
+            "snapshot",
+            "targets"
+        ],
+        "publicKey": "546cdff30cc1ad6dd5f3d1e173672d94bd61a9507199af064142f70cde8de4e3"
     }
 }
