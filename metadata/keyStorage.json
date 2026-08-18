@@ -130,5 +130,14 @@
             "snapshot"
         ],
         "publicKey": "1cbfa7dcac9659e5a8a946ec999bd28f53b451e38ce5827980bed2686098cf19"
+    },
+    "c9fe1ff72da60a30ea5e612fa2ef4ca329fb46d9e1965b811bf9f2de44ffdf18": {
+        "keyId": "c9fe1ff72da60a30ea5e612fa2ef4ca329fb46d9e1965b811bf9f2de44ffdf18",
+        "name": "Martin Kopp",
+        "role": [
+            "snapshot",
+            "targets"
+        ],
+        "publicKey": "390d45fce58e41fec922092b138eaf719ed2036c8722bd694a6832ab6ca18409"
     }
 }
